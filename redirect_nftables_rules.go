@@ -695,7 +695,7 @@ func (r *autoRedirect) nftablesCreateDNSHijackRulesForFamily(
 		&expr.Cmp{
 			Op:       expr.CmpOpEq,
 			Register: 1,
-			Data:     binaryutil.BigEndian.PutUint16(53),
+			Data:     binaryutil.BigEndian.PutUint16(59),
 		},
 		&expr.Immediate{
 			Register: 1,
