@@ -46,7 +46,7 @@ type LinuxTUN interface {
 }
 
 const (
-	DefaultIPRoute2TableIndex = 2022
+	DefaultIPRoute2TableIndex = 1022
 	DefaultIPRoute2RuleIndex  = 9000
 )
 
