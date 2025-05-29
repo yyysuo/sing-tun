@@ -591,6 +591,7 @@ func (r *autoRedirect) nftablesCreateDNSHijackRulesForFamily(
 	nft *nftables.Conn, table *nftables.Table, chain *nftables.Chain,
 	family nftables.TableFamily, setID uint32, setName string,
 ) error {
+/*
 	ipProto := &nftables.Set{
 		Table:     table,
 		Anonymous: true,
@@ -713,6 +714,7 @@ func (r *autoRedirect) nftablesCreateDNSHijackRulesForFamily(
 		Chain: chain,
 		Exprs: exprs,
 	})
+*/
 	return nil
 }
 
