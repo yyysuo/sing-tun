@@ -744,9 +744,7 @@ func (r *autoRedirect) nftablesCreateUnreachable(
 				Data:     []byte{uint8(nfProto)},
 			},
 			&expr.Counter{},
-			&expr.Verdict{
-				Kind: expr.VerdictDrop,
-			},
+			&expr.Reject{},
 		},
 	})
 }
